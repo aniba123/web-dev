@@ -1,0 +1,56 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1737412358025-160a0c22e6c5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.overlay {
+    text-align: center;
+    color: white;
+    /* background: rgba(0, 0, 0, 0.4); */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hotel-name {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.headline {
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    margin: 15px 0;
+}
+
+.book-btn {
+    background: #ff5a3c;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.book-btn:hover {
+    background: #e0432f;
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: burlywood;
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkkhaki;
+
+}
+/* .lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+.image img{
+    /* height: 50%; */
+    width: 30%;
+    background-color: cornflowerblue;
+}
+.links ul{
+display: flex;
+list-style: none;
+gap: 5vw;
+align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.main button{
+    padding: 2%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.home-page{
+    background-color: deeppink;
+    height: 100vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2;
+}
+h1{
+    font-size: 5rem;
+
+}
+.btn{
+    display: flex;
+    /* background-color: beige; */
+    /* padding: 4%; */
+    width: 30%;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.btn button{
+    padding: 5%;
+    /* margin: 5%; */
+    border-radius: 20px;
+border: 1px solid transparent;
+}
+.btn .course{
+    background-color: brown;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+.main-container{
+    background-color: darkorange;
+    height: 100vh;
+    display: flex;
+}
+.right{
+    width: 40%;
+    /* background-color: fuchsia; */
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+}
+.right img{
+    width: 50%;
+  
+}
+.left{
+    width: 60%;
+    /* background-color: goldenrod; */
+    line-height: 1.4;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 1.5rem;
+}
+p{
+    padding-top: 4%;
+}
+.left-btns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding: 2%;
+    /* background-color: darkturquoise; */
+    margin-top: 6%;
+}
+.left-btns button{
+border: 2px solid transparent;
+border-radius: 20px;
+padding: 2%;
+font-weight: 500;
+}
+.left-btns .enroll{
+    background-color: brown;
+    color: white;
+
+}
+
+
+/* discvoer */
+.discover{
+    height: 100vh;
+    background-color: deeppink;
+    text-align: center;
+    padding-top: 3%;
+}
+.flexible{
+    display: flex;
+    /* background-color: deepskyblue; */
+    margin-left: 5%;
+    width: 40%;
+    /* gap: 50px; */
+    justify-content: space-between;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-rows: ; */
+}
+.flexible img{
+    width: 100%;
+    background-color: aquamarine;
+   
+
+}
+.main-img{
+    /* background-color: goldenrod; */
+    /* height: 50vh; */
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 5%;
+}
+
+.fa-star{
+    color: gold;
+    
+}
+.star{
+    display: flex;
+}
